@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'carolina.nichita.address-user' is invalid and this project uses 'carolina.nichita.addressbook' instead.
+* The original package name 'carolina.nichita.address-userAddress' is invalid and this project uses 'carolina.nichita.addressbook' instead.
 
 # Getting Started
 

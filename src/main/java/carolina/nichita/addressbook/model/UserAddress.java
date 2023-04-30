@@ -2,7 +2,9 @@ package carolina.nichita.addressbook.model;
 
 import java.util.Objects;
 
-public class User {
+
+public class UserAddress {
+
     private String id;
     private String fullName;
     private String address;
@@ -10,9 +12,9 @@ public class User {
     private String zip;
     private String email;
 
-    public User() {}
+    public UserAddress() {}
 
-    public User(String id, String fullName, String address, String city, String zip, String email) {
+    public UserAddress(String id, String fullName, String address, String city, String zip, String email) {
         this.id = id;
         this.fullName = fullName;
         this.address = address;
@@ -73,8 +75,8 @@ public class User {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(id, user.id) && Objects.equals(fullName, user.fullName) && Objects.equals(address, user.address) && Objects.equals(city, user.city) && Objects.equals(zip, user.zip) && Objects.equals(email, user.email);
+        UserAddress userAddress = (UserAddress) o;
+        return Objects.equals(id, userAddress.id) && Objects.equals(fullName, userAddress.fullName) && Objects.equals(address, userAddress.address) && Objects.equals(city, userAddress.city) && Objects.equals(zip, userAddress.zip) && Objects.equals(email, userAddress.email);
     }
 
     @Override
